@@ -1,4 +1,4 @@
-# Critique of AI-Generated Test Cases
+# Critique of AI-Generated Test Cases 
 
 This document outlines the human-led refinements made to the initial AI-generated test suite for the **Verified Copy Trading Bridge**. While the AI provided a solid technical foundation, it lacked the domain-specific nuances of the trading industry and the practical needs of a professional trader.
 
@@ -8,7 +8,7 @@ This document outlines the human-led refinements made to the initial AI-generate
 * **AI Suggestion:** Verify that the system accurately calculates and deducts the 30% performance fee and standard broker commissions from the Child account's gross profit.
 * **Critique:** In reality, fees and commissions are charged differently. Broker commissions are transactionally charged (per trade), while performance fees are typically calculated monthly based on the follower's high-water mark or gross profit. Combining them into one test fails to validate the software's periodic accounting logic.
 * **Update:** I am splitting this into two distinct tests to ensure the calculation logic meets the reliability standards customers expect:
-    * **TC02a:** Verify the immediate deduction of per-trade costs (Commissions).
+    * **TC02a:** Verify the immediate deduction of per-trade costs (Commissions). 
     * **TC02b:** Verify the accuracy of the 30% gross profit calculation at the end of a simulated 30-day period (Performance Fee).
 
 ### TC03: Slippage as a User Risk Barrier
