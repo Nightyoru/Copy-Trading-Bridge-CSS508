@@ -1,4 +1,4 @@
-### Verified Copy Trading Bridge - AI Generated Test Cases
+### Verified Copy Trading Bridge - AI Generated Test Cases 
 
 **Functional Testing**
 * **TC01 - Basic Replication:** Verify that a standard "Market Buy" signal is successfully replicated from the Master account to the Child account within the 500ms SLA.

@@ -1,4 +1,4 @@
-### Observation & Motivation
+### Observation & Motivation 
 
 My selection of this project stems from my daily experience in personal asset management and as an active user of third-party copy-trading social applications compatible with major brokers like Pepperstone.
 
